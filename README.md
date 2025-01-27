@@ -1,8 +1,8 @@
-# Install ArchLinux ARM
+# Install Arch Linux ARM
 
 Script to automate installation of ArchLinux ARM to micro SD card.
 
-The script is based on [CuBox-i Installation Process](https://archlinuxarm.org/platforms/armv7/freescale/cubox-i)
+The script is based on [Raspberry Pi Zero 2 Installation Process](https://archlinuxarm.org/platforms/armv8/broadcom/raspberry-pi-zero-2)
 from ArchLinux ARM community web-site.
 
 ## Important
@@ -14,15 +14,14 @@ Be careful, since **you will loose all your data** on the device which name is p
  * Supply a correct device name!
  * You have 1 chance to interrupt the process.
 
-
 ## Usage
 
 Run script with a device name as first parameter and follow the instructions.
 
 ```bash
-$ sudo ./install_archlinux_cubox.sh sdb
+$ sudo ./install_archlinux_rpi.sh sdb
 
-Going to install ArchLinux (CuBox-i) on device '/dev/sdb'
+Going to install ArchLinux (Raspberry Pi Zero 2) on device '/dev/sdb'
 
 All data on this device will be lost!
 Do you want to continue? (y/N):
@@ -31,5 +30,4 @@ Do you want to continue? (y/N):
 
 ## Links
 
- * [ArchLinux ARM - CuBox-i page](https://archlinuxarm.org/platforms/armv7/freescale/cubox-i)
- * [How to install latest Kernel on Cubox-i & Hummingboard](http://forum.solid-run.com/viewtopic.php?p=8655#p8655)
+ * [Arch Linux ARM - Raspberry Pi Zero 2 page](https://archlinuxarm.org/platforms/armv8/broadcom/raspberry-pi-zero-2)
