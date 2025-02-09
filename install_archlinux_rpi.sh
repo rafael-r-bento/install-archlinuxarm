@@ -36,6 +36,11 @@ if [ ! -f "${image}" ]; then
     wget http://os.archlinuxarm.org/os/${image}
 fi
 
+echo "Preparing device..."
+
+umount /dev/${device}1
+dd if=/dev/zero of=/dev/${device} bs=8192
+
 echo "Creating partitions..."
 
 (

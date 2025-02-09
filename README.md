@@ -7,7 +7,7 @@ from ArchLinux ARM community web-site.
 
 ## Important
 
-Script requires root permissions, or sudo rights.
+Script requires sudo rights.
 
 Be careful, since **you will loose all your data** on the device which name is passed to the script:
  * Do a backup first!
